@@ -22,17 +22,26 @@ hr{
 
 }
 /** links **/
+.link{
+    padding: 5rem 1rem;
+}
 .link-primary{
-    padding: 0.5rem 0.5rem;
+    padding:0.5rem 0.5rem;
     text-decoration: none;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 .link-secondary{
+    padding:0rem 0.5rem;
     text-decoration: none;
-    color: gray;
+    border:0.5px solid;
     border-radius: 0.5rem;
+    color:blue;
+    /* text-decoration: none;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1rem;*/
 }
 /** list **/
 .list-non-bullet{
@@ -51,8 +60,9 @@ hr{
     border-bottom-left-radius: 1.1rem;
     border-top-right-radius: 1.1rem
 }
-.link{
-       font-weight: bold;
+.nav-link{
+       font-weight: bolder;
+       font-size: 23px;
 }
 .linklist{
     color: white;
@@ -61,6 +71,7 @@ hr{
 .nav-pills{
     text-align: right;
     padding: 0rem 1rem;
+    font-size: 23px;
    
 }
 .link-active{
@@ -82,6 +93,7 @@ hr{
     text-align: center;
     color:#2e064e;
     font-weight: bold;
+    font-size: 23px;
 }
 .hero-tag{
     color:#34D399;
@@ -95,23 +107,31 @@ hr{
     text-align: center;
 }
  .section-para{
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
-   max-width: 600px;  
+   max-width: 400px;  
+   padding: 1rem ;
  }
 .section-color{
-    background-color: #6B7280;
+    background-color: #D1FAE5;
 }
 footer{
-    background-color: black;
+    background-color:var(--primary-color);
     padding: 1rem 1rem;
     border-bottom-left-radius: 1.1rem;
     border-top-right-radius: 1.1rem;
+    text-decoration: none;
 }
 .foot{
     text-align: center;
+    font-size: 23px;
 }
 .footer ul{
     padding-inline-start: 0px;
 }
-
+.social{
+    font-weight: bold;
+}
+.footloop{
+    text-decoration: none;
+}
