@@ -4,86 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SADHIK'S Component library.</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
     <h1>Sadhik's component library</h1>
   <div> i am attending neog.camp to become a full stack web developer and create my own portfolio.</div>
 <hr>
 <h2>@typography</h2>
-<h1>this is the biggest heading</h1>
+<h1 id=>this is the biggest heading</h1>
 <h2>this is the sercond biggest</h2>
 <p>this one is show some paragaraph</p>
 <small>this is relatively smallest of all</small>
 <hr>
 <h2>@container</h2>
 <h3>fluid container</h3>
-<div1>this is fluid container and this will go till the end of the page</div1>
-<h3>center container</h3>
-<div>this is a centered container and it will go till the specified line</div>
+<div1 class="container">this is fluid container and this will go till the end of the page</div1>
+<h3>center  container</h3>
+<div class="container-center">this is a centered container and it will go till the specified line</div>
 <hr>
 <h2>@links</h2>
-<a href="/">primary link</a>
-<a href="/">secondary link</a>
+<a class="link link-primary" href="/">primary link</a>
+<a class="link link-secondary" href="/">secondary link</a>
+<hr>
 <h2>@lists</h2>
-<h3>unordered lists</h3>
-<ul>
+<h3>unordered lists</h3>     
+<ul class="list-non-bullet">
     <li>Item one</li>
     <li>Item two</li>
     <li>Item three</li>
 </ul>
 <h3>inline unorderd list</h3>
 <ul>
-    <li>inline list one</li>
-    <li>inline list two</li>
-    <li>inline ;list three</li>
+    <li class="list-inline-list">inline list one</li>
+    <li class="list-inline-list">inline list two</li>
+    <li class="list-inline-list">inline list three</li>
 </ul>
-<h3>ordered lists</h3>
-<ol>
+<h3>reverse ordered lists </h3>
+<ol reversed> 
     <li>milk</li>
     <li>toor dal</li>
     <li>pulses</li>
     </ol>
     <hr>
     <h2>@nav</h2>
-    <nav>
-    <div>i am brand</div>
-    <ul>
-        <li>
-            <a href="/">home</a>
+    <nav class="navigation">
+    <div class="link" >i am brand</div>
+    <ul class="nav-pills">
+        <li class="list-inline-list">
+            <a class="linklist link-active" href="/">home</a>
         </li>
-        <li>
-            <a href="/">products</a>
+        <li class="list-inline-list">
+            <a class="linklist" href="/">products</a>
         </li>
-        <li>
-            <a href="/">about</a>
+        <li class="list-inline-list">
+            <a class="linklist" href="/">about</a>
         </li>
 
     </ul>
     </nav>
-    <h2>header</h2>
-    <header>
-        <img src="images/hero.svg"/>
-        <h1>heading inside header</h1>
+    <hr>
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg"/>
+        <span class="hero-header">Mohammed sadiq the</span>
+        <span class ="hero-tag">Web Developer</span>
     </header>
     <hr>
     <h2>@section</h2>
-    <section>
-        <h3>@whitesection0</h3>
-        <p>this will have a white background</p>
+    <section class="section">
+        <!-- <div class="container container-center"> -->
+        <h1>@whitesection</h1>
+        <p class="section-para">Joseph Vijay Chandrasekhar(born 22 June 1974), known professionally as Vijay, is an Indian actor, dancer, playback singer and philanthropist who works in Tamil cinema. Referred to by fans and media as "Thalapathy" (commander), Vijay is the highest paid actor in Tamil cinema</p>
     </section>
-    <section>
-        <h3>@offwhitesection</h3>
-        <p>this will have a gray background</p>
+    <section class="section-color">
+        <h1>@offwhitesection</h1>
+        <!-- <div class="container container-center"> -->
+        <p class="section-para">Joseph Vijay Chandrasekhar(born 22 June 1974), known professionally as Vijay, is an Indian actor, dancer, playback singer and philanthropist who works in Tamil cinema. Referred to by fans and media as "Thalapathy" (commander), Vijay is the highest paid actor in Tamil cinema</p>
     </section>
     <hr>
     <h2>@footer</h2>
     <footer>
         <div>some small heading inside footer</div>
-        <ul>
-            <li>socialOne
-            </li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+        <ul class="list-non-bullet foot">
+            <li class="list-inline-list">socialOne</li>
+            <li class="list-inline-list">socialTwo</li>
+            <li class="list-inline-list">socialThree</li>
         </ul>
     </footer>
 </body>
